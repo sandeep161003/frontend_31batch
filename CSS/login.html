@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        }
+        form{
+            border: 2px solid black;
+            width: 40%;
+            padding: 30px;
+            margin: auto;
+
+        }
+        h1{
+            text-align: center;
+        }
+        /* label{
+            margin: 50px;
+        } */
+         .input_field{
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+         .form_field{
+            border-bottom: 1px solid gray;
+            margin-bottom: 10px;
+         }
+         .input_field input{
+            border: none;
+            outline: none;
+         }
+         .forget{
+            text-align: right;
+         }
+         a{
+            text-decoration: none;
+         }
+         .forget a{
+            color: grey;
+         }
+         .login_button{
+            text-align: center;
+         }
+         .login_button button{
+            margin: 10px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 999px;
+         }
+         .symbols{
+            text-align: center;
+         }
+         .symbols i{
+            border-radius: 50%;
+            color:white;
+            /* background-color: blue; */
+            padding: 10px;
+         }
+         .fa-facebook-f{
+            background-color: #3A5998;
+
+         }
+         .fa-twitter{
+            background-color: #15A3F3;
+         }
+         .fa-google{
+            background-color: #E7402F;
+         }
+         .signin{
+            text-align: center;
+            margin-top: 70px;
+         }
+         .signin a{
+            color: gray;
+         }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <h1>LOGIN</h1>
+        </div>
+        <div class="form_field">
+
+            <label for="">username</label>
+
+            <div class="input_field">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Type Your UserName">
+            </div>
+        </div>
+
+        <div class="form_field">
+
+            <label for="">Password </label>
+
+            <div class="input_field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" placeholder="Enter Your Password">
+            </div>
+
+        </div>
+
+        <div class="forget">
+            <a href="" >Forget Password ?</a>
+        </div>
+
+        <div class="login_button">
+            <button>LOGIN</button>
+        </div>
+
+        <div class="symbols">
+            <p>or Sign in Using</p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google"></i>
+        </div>
+
+        <div class="signin">
+            <p> or sign up using</p>
+            <a href="">sign up</a>
+        </div>
+    </form>
+</body>
+</html>
