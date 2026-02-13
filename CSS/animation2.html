@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lux{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            animation-name: sand;
+            animation-duration: 8s;
+            transition-delay: 2s;
+
+        }
+        @keyframes sand{
+            /* from{
+                width: 400px;
+                height: 400px;
+                background-color: blue;
+                transform: translate(400px);
+            }
+            to{
+                height: 600px;
+                background-color: black;
+            } */
+
+            0%{
+                 width: 200px;
+                height: 200px;
+                background-color: blue;
+            }50%{
+                border-radius: 50%;
+            }100%{
+                width: 400px;
+                height: 400px;
+                background-color: crimson;
+                transform:translate(400px) ;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="lux"></div>
+</body>
+</html>
